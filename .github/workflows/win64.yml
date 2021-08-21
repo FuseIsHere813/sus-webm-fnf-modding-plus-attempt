@@ -46,7 +46,7 @@ jobs:
           haxelib git hscript-ex https://github.com/ianharrigan/hscript-ex
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib install hxcpp-debug-server
-          haxelib install openfl-webm
+          haxelib install openfl-webm 0.0.4
           haxelib list
         shell: cmd
       - name: Create Version Tag
